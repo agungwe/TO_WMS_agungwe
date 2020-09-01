@@ -1,0 +1,38 @@
+{
+  "name": "TO_WMS_agungwe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agungwe/TO_WMS_agungwe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agungwe/TO_WMS_agungwe/issues"
+  },
+  "homepage": "https://github.com/agungwe/TO_WMS_agungwe#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.10",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "kue": "^0.11.6",
+    "lodash": "^4.17.19",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.1.0",
+    "node-cron": "^2.0.3",
+    "node-slack": "git://github.com/Dahlgren/node-slack.git#hook-url",
+    "nodemailer": "^6.4.11",
+    "sequelize": "^6.3.4"
+  }
+}
